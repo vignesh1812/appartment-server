@@ -12,7 +12,7 @@ app.use(express.urlencoded({ limit: '70mb', extended: true }));
 app.use(
   cors(
     {
-      origin: "http://localhost:5173",
+      origin: "https://appartment-dev-info.netlify.app",
       credentials: true,
       methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
       optionsSuccessStatus: 204,
